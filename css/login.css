@@ -1,0 +1,110 @@
+body {
+    background-color: #000;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  form img {
+    margin-left: 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+img{
+  margin-left: 59%;
+  height: 98vh;
+  opacity: 0.5;
+}
+
+   .animated-background { 
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #a3e1e6, #3bbbdb, #060879);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: animateBackground 2s linear infinite;
+  } 
+
+  
+
+  form {
+    position: absolute;
+    background-size: 100% 100%;
+    width: 300px;
+    height: fit-content;
+    background-color: #1f1f1f;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(194, 78, 78, 0.1);
+  }
+  
+  form {
+    animation: animateBorder 5s infinite;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #1f1f1f;
+    outline: none;
+    color: white;
+  }
+
+/* sombra */
+  form {
+    margin-top: 10%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #3399cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff;
+    color: #2c9fcc;
+  }
+  
+
+  input[type="text"]:focus,
+  input[type="password"]:focus{
+    border: solid 4px #4ed6d6;
+  }
+
+/* boton (ingresar) */
+  button[type="submit"] {
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #2c9fcc;
+    border-radius: 7px;
+  }

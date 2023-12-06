@@ -1,0 +1,96 @@
+.formulario_usuario_div {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+  .formulario_usuario{
+    margin: 0;
+    height: fit-content;
+    background-color: var(--c-gray-600);
+    padding: 1.125em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid; */
+    
+  }
+  
+  .registrar{
+    color: #fff;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
+    display: block;
+    font-size: x-large;
+    margin-bottom: 0.5em;
+  }
+  
+  .form-input{
+    color: var(--c-gray-800);
+    width: 100%;
+    margin-bottom: 1.25em;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--c-gray-500);
+    font-family: 'Inter', sans-serif;
+    outline: none;
+  }
+  .form-file{
+    width: 100%;
+    color:transparent;
+    height: 40px;
+    border: solid 1px var(--c-gray-500);
+    margin-bottom: 1.25em;
+    border-radius: 5px;
+    background-color: var(--c-gray-100);
+  }
+  
+  .form-file::-webkit-file-upload-button{
+    visibility: hidden;
+  }
+  
+  .form-file::before{ 
+    content: 'Elija una foto de perfil';
+    line-height: 38px;
+    color: var(--c-gray-800);
+  }
+  
+  .form-input:focus {
+    border: 1px solid var(--c-blue-primary);
+  }
+  
+  .form-submit {
+    width: 50%;
+    padding: 0.625em;
+    border-radius: 5px;
+    color: var(--c-gray-100);
+    background-color: var(--c-blue-primary);
+    border: 1px  var(--c-blue-tertiary);
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    color: var(--c-blue-primary);
+    background-color: var(--c-gray-100);
+    border: 1px ;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .na{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .na input{
+    width: 170px;
+  }
+
+  @media (max-width:1200px) {
+      .formulario_usuario_div{
+        justify-content: center;
+        margin-top:40px ;
+      }
+  }
+
